@@ -58,11 +58,19 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sample App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1g6-qt-dA2">
+                                <rect key="frame" x="149" y="172.5" width="116" height="26.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="QA8-to-hnt" firstAttribute="top" secondItem="1g6-qt-dA2" secondAttribute="bottom" constant="65" id="C42-Fz-M4O"/>
                             <constraint firstItem="QA8-to-hnt" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" constant="-132" id="IyX-h5-Qo3"/>
                             <constraint firstItem="QA8-to-hnt" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="QSg-DX-Db6"/>
+                            <constraint firstItem="1g6-qt-dA2" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="pwY-Hf-FkF"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
