@@ -21,6 +21,7 @@ class ViewController: UIViewController {
 
     @IBAction func onClick(_ sender: Any) {
         mainLabel?.text = textField?.text
+        mainLabel.adjustsFontSizeToFitWidth = true
     }
     
 }
